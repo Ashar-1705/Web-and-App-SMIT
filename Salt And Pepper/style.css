@@ -1,0 +1,478 @@
+@font-face {
+    font-family: 'apna-font';
+    src: url('./fonts/futurak.ttf');
+}
+/* .........NAVBAR............... */
+*{
+    color: white;
+}
+.main{
+    background-color: black;
+    overflow: hidden;
+}
+.header{
+    margin: 1% auto auto 7%;
+    position: relative;
+}
+.header > img:hover{
+    cursor: pointer;
+}
+.tablecontent{
+    width: 30%;
+    position: absolute;
+    right: 33%;
+    top: 4%;
+}
+.tablebtn{
+    position: absolute;
+    right: 10%;
+    top: 4%;
+}
+.tablecontent tbody td{
+    text-align: center;
+}
+.tablebtn tbody td{
+    text-align: center;
+}
+.tablecontent tbody td a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+.tablecontent tbody td a:hover{
+    cursor: pointer;
+}
+.tablebtn tbody td a{
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.spanbtn{
+    display: inline-block;
+}
+.spanbtn > i{
+    font-size: large;
+    border: 1px solid white;
+    width: 90%;
+    height: 90%;
+    border-radius: 80px;
+    padding: 15%;
+    margin: 2%;
+    background-color: white;
+    color: black;
+}
+.orderonline{
+    background-color: red;
+}
+
+/* .........BRANDS...................... */
+.brands{
+    margin: 6% auto auto auto;
+    text-align: center;
+}
+.paragraph{
+    font-size: 50px;
+    font-weight: 100;
+}
+.snp{
+    font-weight: bolder;
+    font-weight: 9px;
+    font-family: apna-font;
+}
+.click{
+    font-size: 20px;
+    color: grey;
+}
+.ordernow{
+    width: 100%;
+}
+.ordernow table{
+    width: 65%;
+    margin: 1% auto;
+}
+.ordernow table tbody tr th img{
+    background-color: white;
+    width: 80%;
+    padding: 8% 6% 8% 6%;
+}
+.ordernow table tbody tr th img:hover{
+    cursor: pointer;
+}
+.ordernow table tbody tr td{
+    padding: 3%;
+    width: 25%;
+}
+.ordernow table tbody tr td a{
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 40%;
+    padding: 4% 7% 4% 7%;
+    text-decoration: none;
+}
+/* ...........FRANCHISE..................*/
+.backg{
+    background-color: grey;
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.headg{
+    width: 20%;
+    height: 50%;
+    margin-top: -3%;
+    position: absolute;
+    right: 10%;
+    color: grey;
+    font-size:  600px;
+    font-weight: bolder;
+    font-family: apna-font;
+    opacity: 0.1;
+}
+/* .........FRANCHISE...................... */
+.merge{
+    background-color: rgb(31, 30, 30);
+    margin-top: -4%;
+}
+/* ........ISLAMABAD.......... */
+.islatable{
+    width: 100%;
+    margin-left: 4%;
+}
+.islaspanone{
+    letter-spacing: 0.5em;
+    color: red;
+    font-size: 26px;
+}
+.islaspan{
+    font-size: 30px;
+    font-family: apna-font;
+}
+.islapara{
+    font-size: 26px;
+    margin-top: 15%;
+}
+.islaimg > img{
+    margin-top: 7%;
+}
+.location{
+    font-size: small;
+    color: gray;
+}
+.phone{
+    font-size: small;
+    color: gray;
+    margin-right: 40%;
+}
+.directionspan{
+    width: 80%;
+}
+/* .........FAISALABAD........... */
+.faitable{
+    margin-top: 5%;
+    width: 100%;
+}
+.faispanone{
+    letter-spacing: 0.5em;
+    color: red;
+    font-size: 26px;
+}
+.faispan{
+    font-size: 30px;
+    font-family: apna-font;
+}
+.faipara{
+    font-size: 26px;
+}
+.faiphone{
+    font-size: small;
+    color: gray;
+    margin-right: 17%;
+}
+/* ..........BAHAWARPUR............. */
+.direction{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5%;
+    border-radius: 40%;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.phone:hover{
+    cursor: pointer;
+}
+.franchise{
+    background-color: rgb(31, 30, 30);
+    margin: 6% auto auto auto;
+    text-align: center;
+}
+.para{
+    font-size: 50px;
+    font-weight: 100;
+}
+.span{
+    font-weight: bolder;
+    font-weight: 9px;
+    font-family: apna-font;
+}
+.detals{
+    font-size: 20px;
+    color: grey;
+}
+/* ......EXPRESS FRANCHISE........ */
+.backp{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.headp{
+    width: 20%;
+    height: 50%;
+    margin-top: -10%;
+    position: absolute;
+    margin-left: 3%;
+    color: grey;
+    font-size:  600px;
+    font-weight: bolder;
+    font-family: apna-font;
+    opacity: 0.1;
+}
+.expree{
+    background-color: black;
+    text-align: center;
+    margin-top: 7%;
+}
+.expree > p > span{
+    font-family: apna-font;
+    font-weight: bold;
+}
+.expree > p{
+    font-size: 49px;
+}
+.express{
+    width: 100%;
+}
+.expresstable{
+    margin: -4% 15%;
+    padding: auto;
+}
+.expressi{
+    margin-top: 7%;
+    width: 100%;
+}
+.expressitable{
+    margin: -4% 25%;
+    padding: auto;
+}
+.moto{
+    letter-spacing: 1em;
+    color: red;
+    font-size: small;
+}
+.motospan{
+    font-family: apna-font;
+    font-size: x-large;
+}
+.motoexp{
+    font-size: x-large;
+}
+.motophone{
+    color: gray;
+    font-size: small;
+}
+.ifranchise{
+    background-color: rgb(31, 30, 30);
+    margin: 8% auto -4% auto;
+    text-align: center;
+}
+.ipara{
+    font-size: 50px;
+    font-weight: 100;
+}
+.ispan{
+    font-weight: bolder;
+    font-weight: 9px;
+    font-family: apna-font;
+}
+.village{
+    background-color: rgb(31, 30, 30);
+}
+.villegeimg > img{
+    margin-top: 5%;
+    width: 100%;
+}
+.villageth{
+    width: 50%;
+}
+.villageth > p{
+    width: 70%;
+    max-height: fit-content;
+    margin-left: 5%;
+}
+.villagep{
+    color: red;
+    margin: 0%;
+    letter-spacing: 0.5em;
+}
+.idirection{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5%;
+    border-radius: 40%;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: green;
+}
+/* ......opening soon/....... */
+.open{
+    margin-top: 5%;
+    background: black;
+    text-align: center;
+}
+.opening{
+    font-family: apna-font;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.opexexp{
+    font-size: 50px;
+}
+.soon{
+    font-size: 25px;
+}
+/* ............FOOTer ........... */
+.footer{
+    background-color: rgb(31, 30, 30);
+    width: 100%;
+    margin-top: 5%;
+    /* overflow-y: hidden; */
+}
+.ibackp{
+    background-color: grey;
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.iheadp{
+    width: 20%;
+    height: 50%;
+    margin: -10% 0% auto 6%;
+    position: absolute;
+    color: black;
+    font-size:  600px;
+    font-weight: bolder;
+    font-family: apna-font;
+    opacity: 0.1;
+}
+.footer > table >tbody > tr >th > img{
+    margin-top: 16%;
+}
+.tandc{
+    text-align: center;
+    width: 30%;
+}
+.footer > table >tbody > tr >th > p{
+    margin-left: 5%;
+    color: gray;
+}
+.site{
+    width: 20%;
+}
+.isite{
+    margin-top: 7%;
+    color: gray;
+}
+.site > ul{
+    list-style: none;
+}
+.sitelink{
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+.contact{
+    width: 20%;
+}
+.icontact{
+    margin-top: 7%;
+    color: gray;
+}
+.icontact > p{
+    color: gray;
+}
+.contact > ul{
+    list-style: none;
+}
+.contactus{
+    margin-top: 26%;
+}
+.follow{
+    width: 30%;
+}
+.follow > ul{
+    list-style: none;
+}
+.fb > i{
+    margin: 11%;
+    width: 1%;
+}
+.social{
+    margin-left: 4%;
+}
+.google > img{
+    margin-top: 1%;
+}
+.line{
+    border-color: gray;
+}
+.last{
+    background-color: rgb(31, 30, 30);
+    padding: 0.7%;
+}
+.copy{
+    color: gray;
+    margin-left: 3%;
+}
+.auth {
+    margin-left: 50%;
+    color: gray;
+}
+.openedone{
+    background-color: white;
+    width: 20%;
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.iopenedone{
+    background-color: white;
+    width: 20%;
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.openspan{
+    color: red;
+    letter-spacing: 0.5em;
+    font-size: x-small;
+}
+.spanopenonee{
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+.opnedspan{
+    font-size: x-large;
+    color: black;
+}
+.socialb{
+    margin-top: 4%;
+    text-align: center;
+}
+.socialb > img{
+    width: 17%;
+    display: inline-block;
+    padding: 10px;
+}
