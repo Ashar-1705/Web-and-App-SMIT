@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Product Landing Page</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">Site<span>Logo</span></div>
+    <!-- toggle menu button -->
+    <span class="menubtn" onclick="openNav()">&#9776;</span>
+
+    <div class="navLinks">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Team</a></li>
+        <button type="button">Contact Us</button>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- responsive side navbar -->
+  <div class="sideNav" id="sidenav">
+    <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+    <a href="#">About</a>
+    <a href="#">Features</a>
+    <a href="#">Pricing</a>
+    <a href="#">Gallery</a>
+    <a href="#">Team</a>
+    <a href="#"><button type="button">Contact Us</button> </a>
+  </div>
+
+  <!-- Header content with banner image -->
+  <div class="row">
+    <div class="column1">
+      <h1>Launch your own online learning platform <span>for FREE</span></h1>
+      <p>Top teacher from around the world teach thousands of students. Get unlimited access to 1000+ courses</p>
+      <button class="gradient-button">Get Started</button>
+    </div>
+    <div class="column2">
+      <img
+        src="images/PixelBook Go.png"
+        alt="banner" width="500px">
+    </div>
+  </div>
+
+  <!-- javascript to make side menu appear -->
+  <script>
+    function openNav() {
+      document.getElementById("sidenav").style.width = "50%";
+    }
+    function closeNav() {
+      document.getElementById("sidenav").style.width = "0%";
+    }
+  </script>
+
+</body>
+
+</html>
