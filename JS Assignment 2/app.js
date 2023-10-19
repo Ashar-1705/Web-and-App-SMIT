@@ -149,13 +149,56 @@
 // c. Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: “They are either NN or NN years old”.
 // ----------------------------SOLUTION----------------------------
-var br = "<br>"
-var current = +prompt("Enter Current Year: ")
-var birth = +prompt("Enter Birth Year: ")
-var calc = current - birth
-var msg1 = "Current Year: "
-var msg2 = "Birth Year: "
-var msg3 = "Your Age is : "
-document.write(msg1 + current)
-document.write(br + msg2 + birth)
-document.write(br + msg3 + calc)
+// var br = "<br>"
+// var current = +prompt("Enter Current Year: ")
+// var birth = +prompt("Enter Birth Year: ")
+// var calc = current - birth
+// var msg1 = "Current Year: "
+// var msg2 = "Birth Year: "
+// var msg3 = "Your Age is : "
+// document.write(msg1 + current)
+// document.write(br + msg2 + birth)
+// document.write(br + msg3 + calc)
+
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and output “The circumference is NN”. (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+// ----------------------------SOLUTION----------------------------
+// var br = "<br>"
+// var rad = +prompt("Enter radius of circle: ")
+// var pi = 3.142
+// var circumference = 2*pi*rad
+// document.write("Radius of the circle is" + " " + rad)
+// document.write(br + "The circumference is : " + circumference)
+// var area = pi*(rad**2)
+// document.write(br + "The area is : " + area)
+
+// 13. The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite snack is? Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of your life.
+// Output the result to the screen like so: “You will need NNNN to last you until the ripe old age of NN”.
+// ----------------------------SOLUTION----------------------------
+// var br = "<br>"
+// var snack = prompt("Enter snack name: ")
+// var min = +prompt("Enter current age: ")
+// var max = +prompt("Enter max age: ")
+// var age = max - min
+// var esti = +prompt("Amount of Snacks per day: ")
+// var calc = (age * 365) * esti
+
+// var msg1 = "Favorite snack: "
+// var msg2 = "Current Age: "
+// var msg3 = "Estimated Maximum Age: "
+// var msg4 = "Amount of Snacks per day: "  
+// var msg5 = "You will need "
+// var msg6 = "to last you until the old age of "
+
+// document.write(msg1 + snack)
+// document.write(br + msg2 + min)
+// document.write(br + msg3 + max)
+// document.write(br + msg4 + esti)
+// document.write(br + msg5 + calc + " " + snack + " " + msg6 + " " + max)
