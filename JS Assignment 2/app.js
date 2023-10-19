@@ -202,3 +202,28 @@
 // document.write(br + msg3 + max)
 // document.write(br + msg4 + esti)
 // document.write(br + msg5 + calc + " " + snack + " " + msg6 + " " + max)
+
+// CHAPTER # 02
+// 1. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser?
+// ----------------------------SOLUTION----------------------------
+// var br = "<br>"
+// var num = +prompt("Enter a number: ")
+// var num = ++num
+
+// var msg = "The value of a is: "
+
+// document.write("RESULT:")
+// document.write(br + msg + num)
+// document.write(br + ".....................................")
+// document.write(br)
+// document.write(br + num)
+
+// 2. What will be the output in variables a, b & result after execution of the following script:
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// Explain the output at each stage:
+// --a;
+// --a - --b;
+// --a - --b + ++b;
+// --a - --b + ++b + b--;
+// ----------------------------SOLUTION----------------------------
