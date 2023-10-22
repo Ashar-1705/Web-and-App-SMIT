@@ -1,26 +1,33 @@
 // CHAPTER # 01 
 // 1. Write a script to greet your website visitor using JS alert box?
+// ----------------------------SOLUTION----------------------------
 // alert("Greetings!")
 
 // 2. Write a script to display following message on your web page?
+// ----------------------------SOLUTION----------------------------
 // alert("Error! Please enter a valid password.")
 
 // 3. Write a script to display following message on your web page? (Hint : Use line break)
+// ----------------------------SOLUTION----------------------------
 // alert("Welcome to JS Land...  \nHappy Coding!")
 
 // 4. Write a script to display following messages in sequence?
+// ----------------------------SOLUTION----------------------------
 // alert("Welcome to JS Land...")
 // alert("Happy Coding!")
 
 // 5. Generate the following message through browser’s developer console?
+// ----------------------------SOLUTION----------------------------
 // var message = "Hello... I can run JS through my web browser's console"
 // console.log(message)
 
 // CHAPTER # 02
 // 1. Declare a variable called username?
+// ----------------------------SOLUTION----------------------------
 // var username = ""
 
 // 2. Declare a variable called myName & assign to it a string that represents your Full Name.
+// ----------------------------SOLUTION----------------------------
 // var myName = "Muhammad Ashar"
 // alert(myName)
 
@@ -28,10 +35,12 @@
 // a) Declare a JS variable, titled message.
 // b) Assign “Hello World” to variable message
 // c) Display the message in alert box.
+// ----------------------------SOLUTION----------------------------
 // var message = "Hello World"
 // alert(message)
 
 // 4. Write a script to save student’s bio data in JS variables and show the data in alert boxes?
+// ----------------------------SOLUTION----------------------------
 // var name = 'john doe'
 // alert(name)
 // var age = 15
@@ -43,6 +52,7 @@
 // alert(message)
 
 // 5. Write a script to display the following alert using one JS variable?
+// ----------------------------SOLUTION----------------------------
 // var message = "PIZZA \nPIZZ \nPIZ \nPI \nP"
 // alert(message)
 
@@ -52,33 +62,39 @@
 // alert(myEmail)
 
 // 7. Declare a variable called book & give it the value “A smarter way to learn JavaScript”. Display the following message in an alert box?
+// ----------------------------SOLUTION----------------------------
 // var book = "A smarter way to learn JavaScript"
 // var message = "I am trying to learn from the book"
 // var tab = message + " " + book
 // alert(tab)
 
 // 8. Write a script to display this in browser through JS?
+// ----------------------------SOLUTION----------------------------
 // var message = "Yah! I can write HTML content through JavaScript."
 // document.write(message)
 
 // 9. Store following string in a variable and show in alert and browser through JS?
+// ----------------------------SOLUTION----------------------------
 // var design = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
 // alert(design)
 
 // CHAPTER # 03
 // 1. Declare a variable called age & assign to it your age. Show your age in an alert box?
+// ----------------------------SOLUTION----------------------------
 // var age = "19"
 // var message = "I am" + " " + age + " " + "years old"
 // alert(message)
 
 // 2. Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her
 // number of visits on your web page. For example: “You have visited this site N times”?
+// ----------------------------SOLUTION----------------------------
 // var visit = 0
 // window.onload = visit++
 // var siteVisit = 'you have visited this site' + ' ' + visit + ' ' + 'times'
 // alert(siteVisit)
 
 // 3. Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser?
+// ----------------------------SOLUTION----------------------------
 // var year = 1990
 // var message = 'MY birthday year is' + " " + ' ' + year 
 // // var space = '\n'
@@ -91,6 +107,51 @@
 // c. Quantity i.e. how many products a visitor wants to order
 // Show the following message in your browser: “John
 // Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
+
+// CHATPER 04
+// 1. Declare 3 variables in one statement?
+// ----------------------------SOLUTION----------------------------
+// var variable_1
+// var variable_2
+// var variable_3
+
+// 2. Declare 5 legal & 5 illegal variable names?
+// ----------------------------SOLUTION----------------------------
+// LEGAL 
+// var myVariable
+// var _privateVariable
+// var number123
+// var $specialVariable
+// var camelCaseVariable
+
+// ILLEGAL
+
+// var 123variable
+// var special-variable
+// var my variable
+// var #hashVariable 
+// var for 
+
+// 3. Display this in your browser
+// a) A heading stating “Rules for naming JS variables”
+// b) Variable names can only contain ______, ______, ______ and ______. For example $my_1stVariable
+// c) Variables must begin with a ______, ______ or _____. For example $name, _name or name
+// d) Variable names are case _________
+// e) Variable names should not be JS _________
+// ----------------------------SOLUTION----------------------------
+// var heading = 'Rules for naming JS variables'
+// var node = document.createElement("h1")
+// node.innerHTML = heading
+// document.body.appendChild(node)
+// var para = 'Variable names can only contain numbers, $,letters and - \n .For example $my_1stVariable'
+// document.write(para,"</br>")
+// var para = 'Variables must begin with a letters,$ or -. For example $name, _name or name'
+// document.write(para,"</br>")
+// var para = 'Variable names are case sensitive'
+// document.write(para,"</br>")
+// var para = 'Variable names should not be JS keywords'
+// document.write(para,"</br>")
+
 
 // CHAPTER # 05
 
