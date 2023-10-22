@@ -359,3 +359,256 @@
 // document.write(br + msg4 + esti)
 // document.write(br + msg5 + calc + " " + snack + " " + msg6 + " " + max)
 
+// CHAPTER # 06-09
+// QUESTION 01
+// ----------------------------SOLUTION----------------------------
+// var a = +prompt('Please enter a number' , 10)
+// var heading = document.createElement('h1')
+// heading.innerHTML = 'Result'
+// document.body.appendChild(heading)
+// document.write(`The value of a is: ${a}</br></br> <hr> </br></br>`)
+// document.write(`The value of a is: ${a}</br></br>`)
+// var res = ++a
+// document.write(`Now the value of a is: ${a}</br></br>`)
+// document.write(`The value of a is: ${a}</br></br>`)
+// var res = a++
+// document.write(`Now the value of a is: ${a}</br></br>`)
+// document.write(`The value of a is: ${a}</br></br>`)
+// var res = --a
+// document.write(`Now the value of a is: ${a}</br></br>`)
+// document.write(`The value of a is: ${a}</br></br>`)
+// var res = a--
+// document.write(`Now the value of a is: ${a}</br></br>`)
+
+// QUESTION 02
+// ----------------------------SOLUTION----------------------------
+// var a = 2 , b=1
+// var res = --a - --b + ++b + b--
+// document.write(`a is = ${a} </br> b is = ${b} </br> Result is = ${res}</br>`)
+// var res = --a
+// document.write(`Now a is = ${a} </br>Now b is = ${b} </br> Result is = ${res}</br>`)
+// var res = --a - --b
+// document.write(`Now a is = ${a} </br>Now b is = ${b} </br> Result is = ${res}</br>`)
+// var res = --a - --b + ++b
+// document.write(`Now a is = ${a} </br>Now b is = ${b} </br> Result is = ${res}</br>`)
+// var res = --a - --b + ++b + b--
+// document.write(`Now a is = ${a} </br>Now b is = ${b} </br> Result is = ${res}</br>`)
+
+// QUESTION 03
+// ----------------------------SOLUTION----------------------------
+// var table = document.createElement('table')
+// var tbody = document.createElement('tbody')
+// var marks = 150
+// var tm = marks*3
+// var sub1 = +prompt('Enter Your English Marks', 0)
+// var sub2 = +prompt('Enter Your Urdu Marks', 0)
+// var sub3 = +prompt('Enter Your Math Marks', 0)
+// var per1 = (sub1/150)*100
+// var per2 = (sub2/150)*100
+// var per3 = (sub3/150)*100
+// var om = sub1 + sub2 + sub3
+// var percen = (om/300)*100
+// var data = [
+//     ['Subject' , 'Total Marks' , 'Obtain Marks' , 'Percentage'],
+//     ['English' , marks , sub1 , per1],
+//     ['Urdu' , marks , sub2 , per2],
+//     ['Math' , marks , sub3 , per3],
+//     ['' , tm , om,percen]
+// ] 
+// for(i = 0 ; i<data.length;i++){
+//     var tr = document.createElement('tr')
+//     for(j = 0 ; j<data[i].length;j++){
+//         var th = document.createElement('th')
+//             var textNode = document.createTextNode(data[i][j])    
+//             th.appendChild(textNode)
+//             tr.appendChild(th)
+//     }
+//     tbody.appendChild(tr)
+// }
+// table.appendChild(tbody)
+// table.style.border = '1px solid black'
+// document.body.appendChild(table)
+
+// CHAPTER 10-12
+// C7QUESTION01
+// ----------------------------SOLUTION----------------------------
+// var city = prompt('Enter your city name' , 'Karachi')
+// document.write(`Welcome! to ${city}`)
+
+// QUESTION02
+// ----------------------------SOLUTION----------------------------
+// var gender = prompt('Enter gender male or female')
+// if(gender === 'male' || gender === 'Male' || gender === 'MALE' || gender==='m' || gender==='F'){
+//     alert(`Good Morning! Sir`)
+// } else{
+//     alert(`Good Morning! Mam`)
+// } 
+// QUESTION 03
+// ----------------------------SOLUTION----------------------------
+// var color = prompt('Enter color symbol R G Y')
+// if(color === 'R'){
+//     alert("Stop!")
+// }else if(color==='G'){
+//     alert("Move NOw")
+// }
+// else{
+//     alert("Ready to move")
+// }
+// QUESTION 04
+// ----------------------------SOLUTION----------------------------
+// var fuel = +prompt('How many litres fuel you have')
+// if(fuel <=0.25){
+//     alert('Please refill your fuel')
+// }else{
+//     alert{'You have enough fuel'}
+// }
+// Question 05
+// ----------------------------SOLUTION----------------------------
+// var a = 4;
+// if (++a === 5) {
+//     alert("given condition for variable a is true");
+// } 
+// var b = 82;
+// if (b++ === 83) {
+//     alert("given condition for variable b is true");
+// }
+
+// var c = 12;
+// if (c++ === 13) {
+//     alert("condition 1 is true");
+// }
+// if (c === 13) {
+//     alert("condition 2 is true");
+// }
+// if (++c < 14) {
+//     alert("condition 3 is true");
+// }
+// if (c === 14) {
+//     alert("condition 4 is true");
+// } if (false) {
+//     alert("False");
+// }
+
+// var materialCost = 20000; 
+// var laborCost = 2000; 
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){ 
+// alert("The cost equals"); 
+// } 
+// if (true){ 
+// alert("True"); 
+// } 
+// if (false){ 
+// alert("False"); 
+// }
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+// }
+
+// QUESTION 06
+// ----------------------------SOLUTION----------------------------
+// var table = document.createElement('table')
+// var tbody = document.createElement('tbody')
+// var marks = 150
+// var tm = marks*3
+// var sub1 = +prompt('Enter Your English Marks', 0)
+// var sub2 = +prompt('Enter Your Urdu Marks', 0)
+// var sub3 = +prompt('Enter Your Math Marks', 0)
+// var per1 = (sub1/150)*100
+// var per2 = (sub2/150)*100
+// var per3 = (sub3/150)*100
+// var om = sub1 + sub2 + sub3
+// var percen = (om/300)*100
+// var data = [
+//     ['Subject' , 'Total Marks' , 'Obtain Marks' , 'Percentage'],
+//     ['English' , marks , sub1 , per1],
+//     ['Urdu' , marks , sub2 , per2],
+//     ['Math' , marks , sub3 , per3],
+//     ['' , tm , om,percen]
+// ] 
+// for(i = 0 ; i<data.length;i++){
+//     var tr = document.createElement('tr')
+//     for(j = 0 ; j<data[i].length;j++){
+//         var th = document.createElement('th')
+//             var textNode = document.createTextNode(data[i][j])    
+//             th.appendChild(textNode)
+//             tr.appendChild(th)
+//     }
+//     tbody.appendChild(tr)
+// }
+// table.appendChild(tbody)
+// table.style.border = '1px solid black'
+// document.body.appendChild(table)
+// if(percen >= 80){
+//     document.write(`Grade A-one </br> Excellent`)
+// } else if(percen >= 70){
+//     document.write(`Grade A </br> Good`)
+// } else if(percen >= 60){
+//     document.write(`Grade B </br> You need to improve`)
+// }
+// else{
+//     document.write(`Grade fail </br> Sorry!`)
+// }
+
+// QUESTION 07
+// ----------------------------SOLUTION----------------------------
+// var num = 8
+// var userGuess = +prompt("Guess the secret number (between 1 and 10)");
+// var right = num - userGuess
+// if (userGuess === num) {
+//   alert("Bingo! Correct answer.");
+// } else if (right === 1 || right == -1) {
+//   alert("Close enough to the correct answer.");
+// } else {
+//   alert("Sorry, try again.");
+// }
+// QUESTION 08
+// ----------------------------SOLUTION----------------------------
+// var num = +prompt('Enter number to find that number is divisible by 3')
+// var res = num % 3
+// console.log(res)
+// if(res === 0){
+//     alert('Number is divisible by 3')
+// } else{
+//     alert('Not divisible by 3')
+// }
+// QUESTION 09
+// ----------------------------SOLUTION----------------------------
+// var num = +prompt('Enter number to check that Number is EVEN or ODD')
+// var res = num % 2
+// console.log(res)
+// if(res === 0){
+//     alert('Even Number')
+// }else{
+//     alert('Odd Number')
+// }
+
+// QUESTION 10
+// ----------------------------SOLUTION----------------------------
+// var temp = +prompt('Enter temperature outside')
+// if(temp > 40){
+//     alert("Its hot outside")
+// }else if(temp > 30){
+//     alert("The weather todays is normal")
+// }else if(temp > 20){
+//     alert("Todays weather is cool")
+// }else if(temp > 10){
+//     alert("OMG! todays weather is so cool")
+// }
+
+// QUESTION 11
+// ----------------------------SOLUTION----------------------------
+// var num1 = +prompt('enter first number' , 9)
+// var op = prompt('operatiomn apply (+ < _ < ? < * < %)', '+')
+// var num2 = +prompt('enter second number',9)
+// if(op === '+'){
+//     alert(num1 + num2)
+// } else if(op === '-'){
+//     alert(num1 - num2)
+// } else if(op === '/'){
+//     alert(num1 / num2)
+// } else if(op === '*'){
+//     alert(num1 * num2)
+// } else if(op === '%'){
+//     alert(num1 % num2)
+// }
