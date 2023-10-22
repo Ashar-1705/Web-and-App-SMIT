@@ -164,14 +164,15 @@
 
 // 2. Repeat task1 for subtraction, multiplication, division & modulus?
 // ----------------------------SOLUTION----------------------------
+// var br = "<br>"
 // var num1 = +prompt("Enter first number:")
 // var num2 = +prompt("Enter second number:")
 // var msg = "The subtraction of both numbers is: "
 // document.write(msg + (num1 - num2))
 // var msg = "The multiplication of both numbers is: "
-// document.write(msg + (num1 * num2))
+// document.write(br + msg + (num1 * num2))
 // var msg = "The modulus of both numbers is: "
-// document.write(msg + (num1 % num2))
+// document.write(br + msg + (num1 % num2))
 
 // 3. Do the following using JS Mathematic Expressions
 // a. Declare a variable.
