@@ -74,3 +74,23 @@
 // colors.splice(0,2)
 // console.log(colors)
 
+// part e
+// let colors = ['red' , 'blue' , 'green' , 'pink'];
+// colors.pop()
+// console.log(colors)
+
+// part f
+// let myArray = ['red', 'blue', 'greeen', 'white', 'black'];
+// let newElement = prompt("Enter a new element:");
+// let insertIndex = +prompt("Enter the index where you want to insert the new element:");
+// myArray.splice(insertIndex, 0, newElement);
+// console.log(myArray);
+
+// ---REDO---
+// part g
+// let myArray = ['red', 'blue', 'greeen', 'white', 'black'];
+// let newElement = +prompt("Enter the index where you want to delete the elements:");
+// let insertIndex = +prompt("Enter how many elements do you want to delete:");
+// myArray.splice(insertIndex, newElement);
+// console.log(myArray);
+
