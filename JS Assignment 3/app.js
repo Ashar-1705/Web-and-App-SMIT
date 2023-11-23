@@ -69,3 +69,8 @@
 // colorsArray.unshift(...colors);
 // console.log(colorsArray);
 
+// part d
+// let colors = ['red' , 'blue' , 'green' , 'pink'];
+// colors.splice(0,2)
+// console.log(colors)
+
