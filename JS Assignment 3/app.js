@@ -37,3 +37,35 @@
 // console.log("7)" + " " + qualifications[6])
 // console.log("8)" + " " + qualifications[7])
 
+// Question no: 08
+// ------------------------Solution------------------------
+// let studentNames = ["Michael" , "John" , "Tony"];
+// let studentScores = [320 , 230 , 480];
+
+// // Calculate the percentage for each student
+// for (let i = 0; i < studentNames.length; i++) {
+//   let percentage = (studentScores[i] / 500) * 100;
+//   console.log(`Score of ${studentNames[i]} is ${studentScores[i]}. Percentage: ${percentage}%`);
+// }
+
+// Question no: 09
+// ------------------------Solution------------------------
+// let color = ["red" , "blue" , "black"];
+// let user = prompt("enter any color: ")
+
+// part a
+// adds color at the start of the array
+// color.unshift(user)
+
+// part b
+// adds color at the end of the array
+// color.push(user)
+
+// console.log(color)
+
+// part c
+// let colors = prompt("Enter two colors to add to the beginning of the array: ").split(", ");
+// let colorsArray = ["Red", "Green", "Blue"];
+// colorsArray.unshift(...colors);
+// console.log(colorsArray);
+
