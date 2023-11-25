@@ -109,10 +109,10 @@
 // Question no: 13
 // ------------------------Solution------------------------
 // let array = [];
-// array.push('bat');
-// array.push('ball');
-// array.push('wicket');
-// array.push('football');
+// array.push('keyboard');
+// array.push('mouse');
+// array.push('printer');
+// array.push('monitor');
 
 // console.log(array[0]);
 // console.log(array[1]);
@@ -122,10 +122,10 @@
 // Question no: 14
 // ------------------------Solution------------------------
 // let array = [];
-// array.unshift('bat');
-// array.unshift('ball');
-// array.unshift('wicket');
-// array.unshift('football');
+// array.unshift('keyboard');
+// array.unshift('mouse');
+// array.unshift('printer');
+// array.unshift('monitor');
 
 // console.log(array[0]);
 // console.log(array[1]);
