@@ -94,3 +94,28 @@
 // myArray.splice(insertIndex, newElement);
 // console.log(myArray);
 
+// Question no: 11
+// ------------------------Solution------------------------
+// let cities = ['Karachi' , 'Lahore' , 'Islamabad' , 'Quetta' , 'Peshawar'];
+// let selectedCities = cities.splice(2,2);
+// console.log(selectedCities)
+
+// Question no: 12
+// ------------------------Solution------------------------
+// let array = ['This ' , 'is ' , 'my ' , 'cat'];
+// let string = array.join('')
+// console.log(string)
+
+// Question no: 13
+// ------------------------Solution------------------------
+// let array = [];
+// array.push('bat');
+// array.push('ball');
+// array.push('wicket');
+// array.push('football');
+
+// console.log(array[0]);
+// console.log(array[1]);
+// console.log(array[2]);
+// console.log(array[3]);
+
