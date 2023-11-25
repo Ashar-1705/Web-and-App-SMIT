@@ -119,3 +119,15 @@
 // console.log(array[2]);
 // console.log(array[3]);
 
+// Question no: 14
+// ------------------------Solution------------------------
+// let array = [];
+// array.unshift('bat');
+// array.unshift('ball');
+// array.unshift('wicket');
+// array.unshift('football');
+
+// console.log(array[0]);
+// console.log(array[1]);
+// console.log(array[2]);
+// console.log(array[3]);
